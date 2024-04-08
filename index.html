@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfoilo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cb6e950cf3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">Viktorija</a>
+
+    <nav class="navbar">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#portfoilo">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="home">
+    <div class="home-content">
+      <h1 class="subtitle">Hi, I'm Viktorija!</h1>
+      <h3>A computer science student.</h3>
+      <i class="fa-solid fa-desktop"></i>
+      
+    </div>
+
+    <img src="images/meteor01886.JPG" width="35%">
+
+  </section>
+
+
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/meteor01645.JPG" width="35%">
+        </div>
+        <div class="about-col-2">
+          <h1 class="subtitle">About me</h1>
+          <p>I am finishing my last year of bachelor’s studies, so I am looking forward to <br> start my career as a Software Developer. I am an ambitious and hard-working student 
+            <br> and I am willing to gain work experience and to incorporate my skills and knowledge
+             with <br>  work on real projects.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span> Web design </span><br> Designing Web interface</li>
+                <li><span> Java </span><br> Developing Java applications</li>
+                <li><span> SQL </span><br> Main concepts of Relational databases </li>
+               
+              </ul>
+            </div>
+
+           
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2015 - 2019</span><br>High school diploma for Computer Technology and Automation</li>
+                <li><span>2019 - now</span><br> Bachelor's degree - Computer science and engineering</li>
+                <li><span>In progress</span><br> React course</li>
+                
+               
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>Web design project</span><br> Designing Web/App interface</li>
+                <li><span>Data science project</span><br> Predicition for Covid 19 using Neural Networks</li>
+                <li><span>Web development</span><br> Creating web app using Java Spring Boot</li>
+               
+              </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="skills">
+    <div class="container">
+      <h1 class="subtitle"> My skills</h1>
+      <div class="skills-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>During the two courses that I had for Web design, I learned how to design web pages using HTML and CSS. Also, I have learned how to
+            incorporate JavaScript to make not just static but functional pages.
+          </p>
+
+        </div>
+
+        <div>
+          <i class="fa-regular fa-window-maximize"></i>
+          <h2> Web development </h2>
+          <p> Using the Java Spring Boot framework,combined with HTML and Thymeleaf, I have practiced how to develop simple and functional web applications like e-shops.  </p>
+          
+        </div>
+
+        <div>
+          <i class="fa-brands fa-python"></i>
+          <h2>Data science</h2>
+          <p> I have acquired skills in the basic concepts of the Data Science and Machine Learning processes. I have worked in Google Colab using Python as a programming language to manipulate with datasets and create models for training. 
+            I have learned about Neural networks and deep learning as well.
+          </p>
+          
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div id="portfoilo">
+    <div class="container">
+      <h1 class="subtitle">My work</h1>
+      <div class="worklist">
+        <div class="work">
+          <img src="images/image.jpg" width="35%" height="100%">
+          <div class="layer">
+            <h3> Web design </h3>
+            <p></p>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/image.jpg" width="35%" height="100%">
+          <div class="layer">
+            <h3>Team projects</h3>
+            <p>
+            </p>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/image.jpg" width="35%" height="100%">
+          <div class="layer">
+            <h3>Spring Boot App</h3>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+
+
+
+
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+            <h1 class="subtitle">Contact me</h1>
+            <p><i class="fa-solid fa-envelope"></i>  viktorijastamenova@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>  070 243 798</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/viktorija.stamenova710/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/viktorija-stamenova-8b055420b/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/vstamenova1"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="Resume Viktorija Stamenova.pdf" download class="btn">Download CV</a>
+        </div>
+        <!-- <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your name" required>
+              <input type="email" name="email" placeholder="Your email" required>
+              <textarea name="message" rows="6" placeholder="Your message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button> 
+            </form>
+        </div> -->
+      </div>
+    </div>
+    <div class="footer">
+      <p> Viktorija © 2024 </p>
+    </div>
+  </div>
+
+<script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+  
+  function opentab(tabname){
+      for (tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+  }
+
+</script>
+
+   
+</body>
+</html>
